@@ -1,0 +1,180 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.logo > img {
+	width: 110px;
+	height: 110px;
+	margin: 2px;
+    margin-top: 7px;
+	margin-left: 10px;
+}
+
+.menu{
+	background-color: #f7f1e3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+nav > div {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+nav > div > a {
+	text-decoration: none;
+	font-size: 21px;
+	color: #422600;
+}
+
+nav > div > a:hover{
+	color: #f19066;
+}
+hr{
+   background-color: #f8c291;
+   border: 0 none;
+   color: #f8c291;
+   height: 4px;
+}
+body{
+	height: auto;
+	width: 98,5vw;
+	background-image: url(../imgs/background.png);
+	background-size: 100% 100%;
+}
+.row{
+	justify-content: center;
+	margin-top: 25px;
+	height: 700px;
+	display: flex;
+}
+.item{
+	background-color: #f7f1e3;
+	height: 500px;
+	width: 1080px;
+	margin: 10px;
+}
+#name{
+	margin-left: 290px;
+	margin-top: 185px;
+	font-size: 75px;
+	color: #2C1A0B;
+	font-family: 'Kaushan Script', cursive;
+}
+#name2{
+	margin-left: 390px;
+	margin-top: 15px;
+	font-size: 32px;
+	color: #2C1A0B;
+	font-family: 'Kaushan Script', cursive;
+}
+.select{
+	height: 400px;
+	width: all;
+	justify-content: space-between;
+	display: flex;
+	margin-top: -130px;
+}
+.arts{
+	background-color: blue;
+	height: 250px;
+	width: 400px;
+	margin-left: 150px;
+	margin-right: 150px;
+	border: 2px solid #f19066;
+	border-radius: 15px;
+}
+.paint{
+	background-image: url(../imgs/paints.jpg);
+	background-size: 100% 100%;
+	filter: blur(3px);
+}
+.photo{
+	background-image: url(../imgs/photo.jpg);
+	background-size: 100% 100%;
+	filter: blur(3px);
+}
+.text{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 850px;
+  left: 350px;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  height: 230px;
+  padding: 100px;
+  text-align: center;
+}
+.text2{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 850px;
+  left: 1171px;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  height: 230px;
+  padding: 100px;
+  text-align: center;
+
+}
+#botao1{
+	position: absolute;
+	margin-left: 280px;
+	margin-top: -130px;
+	height: 50px;        /*tamanho do botão*/
+	width: 150px;        /*tamanho do botão*/
+}
+
+#botao2{
+	position: absolute;
+	margin-left: 1100px;
+	margin-top: -130px;
+	height: 50px;        /*tamanho dos botão*/
+	width: 150px;        /*tamanho dos botão*/
+}
+
+#btb{
+	margin-bottom: 15px;/*aqui vc pode aproximar ou deixar o botão mais longe do footer*/
+}
+/*fim estrutura botões*/
+/*animação dos botões*/
+
+.botoes{
+	border: none;
+	color: white; /*cor do texto*/
+	padding: 10px;
+	margin: 10px;
+	line-height: 24px;
+	border-radius: 10px;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 400ms ease;
+	background: #D6A089; /*cor do botão sem mouse*/
+}
+
+.botoes:hover{
+	background: #F8CEB5; /*cor do botão com mouse*/
+	color: white; /*cor do texto com mouse*/
+	box-shadow: inset 0 0 0 3px white; /*cor da borda*/
+}
+footer{
+ 	background-color: #f7f1e3;
+ 	height: 135px;
+}

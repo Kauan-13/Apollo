@@ -1,0 +1,205 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.logo > img {
+	width: 110px;
+	height: 110px;
+	margin: 2px;
+   margin-top: 7px;
+	margin-left: 10px;
+}
+
+.menu{
+	background-color: #f7f1e3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#name{
+	margin-left: 15px;
+	margin-right: 40px;
+	margin-top: 1px;
+	font-size: 75px;
+	color: #2C1A0B;
+	font-family: 'Kaushan Script', cursive;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+nav > div {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+nav > div > a {
+	text-decoration: none;
+	font-size: 21px;
+	color: #422600;
+}
+
+nav > div > a:hover{
+	color: #f19066;
+}
+
+hr{
+   background-color: #f8c291;
+   border: 0 none;
+   color: #f8c291;
+   height: 4px;
+}
+
+body{
+	height: 100vh;
+	width: 98,5vw;
+	background-image: url(../imgs/background.png);
+	background-size: 100% 100%;
+}
+.row{
+	display: flex;
+	margin-top: 40px;
+	margin-left: 180px;
+}
+.imgs{
+	background-color: green;
+	height: 40vh;
+	width: 25vw;
+	border-radius: 15px;
+	border: 3px solid #f19066;
+	margin: 10px
+}
+#img1{
+	background-image: url(../imgs/artemis.png);
+	background-size: 100% 100%;
+}
+#img2{
+	background-image: url(../imgs/artemis.png);
+	background-size: 100% 100%;
+}
+#img3{
+	background-image: url(../imgs/artemis.png);
+	background-size: 100% 100%;
+}
+#img4{
+	background-image: url(../imgs/artemis.png);
+	background-size: 100% 100%;
+}
+#img5{
+	background-image: url(../imgs/artemis.png);
+	background-size: 100% 100%;
+}
+#img6{
+	background-image: url(../imgs/artemis.png);
+	background-size: 100% 100%;
+}
+
+#img7{
+	background-image: url(../imgs/artemis.png);
+	background-size: 100% 100%;
+}
+
+#img8{
+	background-image: url(../imgs/artemis.png);
+	background-size: 100% 100%;
+}
+
+#img9{
+	background-image: url(../imgs/artemis.png);
+	background-size: 100% 100%;
+}
+
+
+/*descrições*/
+.des{ 
+	background-color: white;
+	
+	margin-top: -30px;
+	
+	width: 20vw;
+	height: auto;
+}
+
+#des1{
+	margin-right: 97px;
+	margin-left: 50px;
+}
+
+#des2{
+	margin-right: 97px;
+} /*fim descrições*/ /*cuidado ao mexer nesses margin, 
+                       pode acabar deixando desalinhados*/
+/*roda pé*/
+.pe{
+	background-color:#58b19f;
+	font-size: 20px;
+	border: 2px solid black;
+}
+
+/*fim roda pé*/
+/*estrutura botões*/
+.rowb{
+	margin-left: 295px; /*mexendo nas margins vc consegue alinhar os botões*/
+	margin-top: 8px; /*aqui vc pode aproximar ou deixar o botão mais longe da descrição*/
+}
+
+#botao1{
+	margin-right: 240px;
+	height: 50px;        /*tamanho do botão*/
+	width: 150px;        /*tamanho do botão*/
+}
+
+#botao2{
+	margin-right: 250px;
+	height: 50px;        /*tamanho dos botão*/
+	width: 150px;        /*tamanho dos botão*/
+}
+
+#botao3{
+	height: 50px;        /*tamanho do botão*/
+	width: 150px;        /*tamanho do botão*/
+}
+
+#btb{
+	margin-bottom: 15px;/*aqui vc pode aproximar ou deixar o botão mais longe do footer*/
+}
+/*fim estrutura botões*/
+/*animação dos botões*/
+
+.botoes{
+	border: none;
+	color: white; /*cor do texto*/
+	padding: 10px;
+	margin: 10px;
+	line-height: 24px;
+	border-radius: 10px;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 400ms ease;
+	background: #D6A089; /*cor do botão sem mouse*/
+}
+
+.botoes:hover{
+	background: #F8CEB5; /*cor do botão com mouse*/
+	color: white; /*cor do texto com mouse*/
+	box-shadow: inset 0 0 0 3px white; /*cor da borda*/
+}
+
+/*fim animação dos botões*/
+
+.txb{
+	/*aqui se vc quiser formatar o texto dos botões*/
+}
+
+footer{
+ 	background-color: #f7f1e3;
+ 	height: 135px;
+}
+

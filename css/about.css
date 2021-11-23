@@ -1,0 +1,107 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.logo > img {
+	width: 110px;
+	height: 110px;
+	margin: 2px;
+  margin-top: 7px;
+	margin-left: 10px;
+}
+
+#name{
+	margin-left: 15px;
+	margin-right: 40px;
+	margin-top: 1px;
+	font-size: 75px;
+	color: #2C1A0B;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.menu{
+	background-color: #f7f1e3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+nav > div {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+nav > div > a {
+	text-decoration: none;
+	font-size: 21px;
+	color: #422600;
+}
+
+nav > div > a:hover{
+	color: #f19066;
+}
+
+hr{
+   background-color: #f8c291;
+   border: 0 none;
+   color: #f8c291;
+   height: 4px;
+}
+
+body{
+	height: auto;
+	width: 98,5vw;
+	background-image: url(../imgs/background.png);
+	background-size: 100% 100%;
+}
+
+.row{
+	justify-content: center;
+	margin-top: 25px;
+	height: 700px;
+	display: flex;
+}
+
+.item{
+	background-color: #f7f1e3;
+	height: 650px;
+	width: 1100px;
+	margin: 10px;
+	
+	background-image: url(../imgs/Apollo.jpg);
+	background-size: 100% 100%;
+	border: 2px solid #f8c291;
+	border-radius: 25px;
+}
+.row2{
+	justify-content: center;
+	margin-top: 25px;
+	height: auto;
+	margin-bottom: -20px;
+	display: flex;
+}
+.back{
+	opacity: 75%;
+	background-color: #f7f1e3;
+	height: 750px;
+	width: 900px;
+}
+.texts{
+	position: absolute;
+	width: 850px;
+	text-align: justify;
+	margin-left: 335px;
+	margin-top: -700px;
+}
+footer{
+ 	background-color: #f7f1e3;
+ 	height: 135px;
+}
