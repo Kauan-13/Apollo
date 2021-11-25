@@ -76,44 +76,44 @@ body{
 	margin: 10px
 }
 #img1{
-	background-image: url(../imgs/lena.png.png);
-	background-size: 100% 175%;
+	background-image: url(../imgs/img0.png);
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
 #img2{
-	background-image: url(../imgs/d1.png);
+	background-image: url(../imgs/img1.png);
 	background-size: 100% 100%;
 }
 #img3{
-	background-image: url(../imgs/d3.png);
-	background-size: 100% 120%;
+	background-image: url(../imgs/img2.png);
+	background-size: 100% 100%;
 }
 #img4{
-	background-image: url(../imgs/d2.png);
+	background-image: url(../imgs/img3.png);
 	background-size: 100% 100%;
 }
 #img5{
-	background-image: url(../imgs/artemis.png);
-	background-size: 100% 115%;
+	background-image: url(../imgs/img4.png);
+	background-size: 100% 100%;
 }
 #img6{
-	background-image: url(../imgs/d4.png);
-	background-size: 100% 150%;
+	background-image: url(../imgs/img5.png);
+	background-size: 100% 140%;
 }
 
 #img7{
-	background-image: url(../imgs/d5.png);
-	background-size: 100% 130%;
+	background-image: url(../imgs/img6.png);
+	background-size: 100% 110%;
 }
 
 #img8{
-	background-image: url(../imgs/d6.png);
-	background-size: 100% 120%;
+	background-image: url(../imgs/img7.png);
+	background-size: 100% 100%;
 }
 
 #img9{
-	background-image: url(../imgs/d7.png);
-	background-size: 100% 150%;
+	background-image: url(../imgs/img8.png);
+	background-size: 100% 160%;
 }
 
 
